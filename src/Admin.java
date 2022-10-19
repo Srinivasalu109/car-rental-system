@@ -15,8 +15,6 @@ public class Admin implements  Bill,CarRegistration{
 
     public void updateBill(int billNo,double retailFee,double fine ,String totalAmount){}
 
-    public void cancelBill(){}
-
     public void viewCarDetails(String regNo){}
 
     public void addCarDetails(String regNo,String company,String carModel,double rentPerHour,String isAvailable){}
@@ -25,7 +23,6 @@ public class Admin implements  Bill,CarRegistration{
 
     public void deleteCarDetails(int regNo){}
 
-    public void cancel(){}
 
 
 }

@@ -8,6 +8,5 @@ interface CarRegistration {
 
     public void deleteCarDetails(int regNo);
 
-    public void cancel();
 
 }

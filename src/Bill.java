@@ -6,5 +6,4 @@ public interface Bill {
 
     public void deleteBill(int billNo);
 
-    public void cancelBill();
 }

@@ -6,4 +6,5 @@ public interface Company {
 
     public void viewBranches();
 
+
 }

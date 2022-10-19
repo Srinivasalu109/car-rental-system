@@ -1,6 +1,6 @@
 interface Auth{
 
-    public void register(String customerId,String email,String password,String permanentAddress,String presentAddress,String mobileNumber);
+    public void register(String userId,String userName,String email,String password,String mobileNumber);
 
     public void login(String email,String password);
 
@@ -10,6 +10,5 @@ interface Auth{
 
     public void switchAccount(String email,String password);
 
-    public void editProfile(String email,String password);
 
 }

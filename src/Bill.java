@@ -1,10 +1,10 @@
 public interface Bill {
 
-    public void makeBill();
+    public void makeBill(int billNo,double retailFee,double fine ,String totalAmount);
 
-    public void addBill();
+    public void updateBill(int billNo,double retailFee,double fine,String totalAmount);
 
-    public void deleteBill();
+    public void deleteBill(int billNo);
 
     public void cancelBill();
 }

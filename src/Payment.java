@@ -1,10 +1,7 @@
 public interface Payment {
 
+    public void proceedPayment(String paymentId,double amount);
 
-    public void paymentType();
-
-    public void proceedPayment(double amount);
-
-    public void cancelPayment();
+    public void cancelPayment(String paymentId);
 
 }

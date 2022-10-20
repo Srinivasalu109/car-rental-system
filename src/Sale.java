@@ -14,6 +14,6 @@ public class Sale {
 
     public void updateSale(){}
 
-    public void deleteSale(String saleId){}
+    public void removeSale(String saleId){}
 
 }

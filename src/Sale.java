@@ -8,11 +8,11 @@ public class Sale {
 
     private String dueDate;
 
-    public void addNewSale(){}
+    public void addNewSale(String saleId,String price,String date,String dueDate){}
 
     public void displaySales(){}
 
-    public void updateSale(){}
+    public void updateSale(String saleId,String price,String date,String dueDate){}
 
     public void removeSale(String saleId){}
 

@@ -1,9 +1,17 @@
-public interface Bill {
+ class Bill {
 
-    public void makeBill(int billNo,double retailFee,double fine ,String totalAmount);
+    private String billId;
 
-    public void updateBill(int billNo,double retailFee,double fine,String totalAmount);
+    private double retailFee;
 
-    public void deleteBill(int billNo);
+    private double fine;
+
+    private double totalAmount;
+
+    public void generateBill(int billNo,double retailFee,double fine ,String totalAmount){}
+
+    public void updateBill(int billNo,double retailFee,double fine,String totalAmount){}
+
+    public void deleteBill(int billNo){}
 
 }

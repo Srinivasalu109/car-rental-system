@@ -2,8 +2,6 @@ import java.util.HashMap;
 
 public class Employee{
 
-    private String branchId;
-
     private String empId;
 
     private String empName;
@@ -15,6 +13,10 @@ public class Employee{
     private String salary;
 
     private String yearsOfExp;
+
+    private HashMap<String,Bill>bills;
+
+    private HashMap<String,Sale> sales;
 
     public void viewAllCarDetails(){}
 

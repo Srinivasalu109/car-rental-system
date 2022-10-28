@@ -6,21 +6,11 @@ public class Admin {
 
     private String adminName;
 
-    private Company company;
-
-    private HashMap<String,Manager>manager;
-
-    public void viewBranches(){}
-
-    public void viewManagerDetails(){}
+    private Manager Manager;
 
     public void openBranch(){}
 
-    public void appointManager(){}
-
-    public void removeManager(){}
-
-    public void updateManagerDetails(){}
+    public void closeBranch(){}
 
     public void viewBranchEmployeeDetails(){}
 

@@ -12,6 +12,8 @@ public class Customer{
 
     private String phoneNumber;
 
+    private Branch branch;
+
 
     public void viewAvailableCars(){}
 

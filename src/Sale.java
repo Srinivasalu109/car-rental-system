@@ -3,9 +3,9 @@ import java.util.HashMap;
 
 public class Sale {
 
-    private String saleId;
+    private String customerId;
 
-    private double pricePerDay;
+    private String carId;
 
     private Date date;
 

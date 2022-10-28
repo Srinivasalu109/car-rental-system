@@ -2,14 +2,15 @@ import java.util.HashMap;
 
 public class Manager extends Employee{
 
-    private Branch branch;
+    private HashMap<String,Employee>employees;
 
-    public void addEmp(){}
+    public void appointEmployee(){}
 
-    public void removeEmp(){}
+    public void removeEmployee(){}
 
     public void updateEmpDetails(){}
 
     public void viewEmployees(String empId){}
+
 
 }

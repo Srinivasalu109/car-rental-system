@@ -1,13 +1,13 @@
 
 public class Car {
 
-    private String regNo;
+    private String branchId;
 
-    private String company;
+    private String carId;
 
-    private String carModel;
+    private String brand;
 
-    private String mileage;
+    private String model;
 
     private double pricePerDay;
 

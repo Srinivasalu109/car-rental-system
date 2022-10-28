@@ -4,14 +4,18 @@ public class Admin {
 
     private String adminId;
 
-    private String adminName;
+    private String password;
 
-    private Manager Manager;
+    private Company company;
+
+    public void appointManager(){}
+
+    public void removeManager(){}
 
     public void openBranch(){}
 
     public void closeBranch(){}
 
-    public void viewBranchEmployeeDetails(){}
+    public void managerDetails(){}
 
 }

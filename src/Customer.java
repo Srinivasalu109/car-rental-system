@@ -4,22 +4,18 @@ public class Customer{
 
     private String customerId;
 
-    private String customerName;
+    private String CustomerName;
 
-    private String email;
+    private String mobileNumber;
 
-    private String password;
+    private String Address;
 
-    private String phoneNumber;
-
-    private Branch branch;
-
+    private Store store;
 
     public void viewAvailableCars(){}
 
-    public void viewCarDetails(){}
-
     public void hireCar(){}
 
-    public void searchCarModel(){}
+    public void returnCar(){}
+
 }

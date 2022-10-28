@@ -1,5 +1,8 @@
+import java.util.HashMap;
 
 public class Employee{
+
+    private String branchId;
 
     private String empId;
 
@@ -13,16 +16,24 @@ public class Employee{
 
     private String yearsOfExp;
 
-    private Sale sale;
+    public void viewAllCarDetails(){}
 
-    private  Bill bill;
+    public void addCarDetails(){}
 
-    public void displayCarDetails(String regNo){}
+    public void updateCarDetails(){}
 
-    public void addCarDetails(String regNo,String company,String carModel,double rentPerHour,String isAvailable){}
+    public void deleteCarDetails(){}
 
-    public void editCarDetails(String regNo,String company,String carModel,double rentPerHour,String isAvailable){}
+    public void addNewSale(){}
 
-    public void deleteCarDetails(int regNo){}
+    public void viewSales(){}
+
+    public void deleteSale(){}
+
+    public void generateBill(){}
+
+    public void updateBill(){}
+
+    public void deleteBill(){}
 
 }

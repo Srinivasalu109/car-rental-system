@@ -1,3 +1,4 @@
+import java.util.HashMap;
 
 public class Customer{
 
@@ -11,16 +12,12 @@ public class Customer{
 
     private String phoneNumber;
 
-    private Car car;
 
-    public void register(String userId,String userName,String email,String password,String  mobileNumber){}
+    public void viewAvailableCars(){}
 
-    public void login(String email,String password){}
+    public void viewCarDetails(){}
 
-    public void changePassword(String email,String password){}
+    public void hireCar(){}
 
-    public void logout(String email){}
-
-    public void switchAccount(String email,String password){}
-
+    public void searchCarModel(){}
 }

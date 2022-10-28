@@ -1,3 +1,5 @@
+import java.util.HashMap;
+
 public class Branch {
 
     private String branchId;
@@ -6,16 +8,8 @@ public class Branch {
 
     private String branchAddress;
 
-    public Manager manager;
+    private HashMap<String,Car>cars;
 
-    public void displayBranchDetails(String branchId){}
-
-    public void openBranch(String branchId,String branchName,String branchAddress,String manager){}
-
-    public void appointManager(String managerId,String managerName,String branch){}
-
-    public void removeManager(String managerId){}
-
-    public void updateManagerDetails(String managerId,String managerName,String branch){}
+    private HashMap<String,Employee>employees;
 
 }

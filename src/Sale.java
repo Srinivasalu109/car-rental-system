@@ -1,19 +1,14 @@
+import java.util.Date;
+import java.util.HashMap;
+
 public class Sale {
 
     private String saleId;
 
-    private String Price;
+    private double pricePerDay;
 
-    private String date;
+    private Date date;
 
-    private String dueDate;
-
-    public void addNewSale(String saleId,String price,String date,String dueDate){}
-
-    public void displaySales(){}
-
-    public void updateSale(String saleId,String price,String date,String dueDate){}
-
-    public void removeSale(String saleId){}
+    private Date dueDate;
 
 }

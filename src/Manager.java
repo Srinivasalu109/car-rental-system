@@ -1,11 +1,15 @@
+import java.util.HashMap;
+
 public class Manager extends Employee{
 
-    public void displayEmpDetails(String empId){}
+    private Branch branch;
 
-    public void addEmp(String empId, String empName,String empRole,String yearsOfExp,double salary){}
+    public void addEmp(){}
 
-    public void removeEmp(String empId){}
+    public void removeEmp(){}
 
-    public void updateEmpDetails(String empId, String empName,String empRole,String yearsOfExp,double salary){}
+    public void updateEmpDetails(){}
+
+    public void viewEmployees(String empId){}
 
 }

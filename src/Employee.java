@@ -14,9 +14,7 @@ public class Employee{
 
     private String yearsOfExp;
 
-    private HashMap<String,Bill>bills;
-
-    private HashMap<String,Sale> sales;
+    private Branch branch;
 
     public void viewAllCarDetails(){}
 

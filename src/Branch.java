@@ -12,4 +12,8 @@ public class Branch {
 
     private HashMap<String,Employee>employees;
 
+    private HashMap<String,Bill>bills;
+
+    private HashMap<String,Sale>sales;
+
 }

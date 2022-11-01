@@ -6,7 +6,15 @@ public class Employee{
 
     private String empId;
 
+    private String password;
+
     private String empName;
+
+    private String email;
+
+    private String mobileNumber;
+
+    private String gender;
 
     private String empRole;
 
@@ -16,11 +24,21 @@ public class Employee{
 
     private String yearsOfExp;
 
-    private Store store;
+    private HashMap<String,Car>cars;
+
+    private HashMap<String,Sale>sales;
 
     private HashMap<String,Customer>customers;
 
-    public void viewAllCarDetails(){}
+    public void addNewCustomer(){}
+
+    public void viewCustomerDetails(){}
+
+    public void viewCustomers(){}
+
+    public void viewCarDetails(){}
+
+    public void viewAvailableCars(){}
 
     public void registerCar(){}
 
@@ -28,12 +46,9 @@ public class Employee{
 
     public void deleteCarDetails(){}
 
+    public void addNewSale(){}
+
     public void viewSales(){}
-
-    public void viewCustomer(){}
-
-    public void viewAllCustomers(){}
-
 
 
 }

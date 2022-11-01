@@ -12,6 +12,8 @@ public class Authentication {
 
     public void customerLogin(){}
 
+    public void customerRegister(){}
+
     public void logout(){}
 
 }

@@ -10,7 +10,7 @@ public class Manager extends Employee{
 
     public void updateEmpDetails(){}
 
-    public void viewEmployees(String empId){}
+    public void viewEmployees(){}
 
 
 }

@@ -4,8 +4,6 @@ public class Employee{
 
     private String branchId;
 
-    private String empId;
-
     private String password;
 
     private String empName;
@@ -22,33 +20,45 @@ public class Employee{
 
     private String salary;
 
-    private String yearsOfExp;
+    private int yearsOfExp;
 
-    private HashMap<String,Car>cars;
+    static  HashMap<String,RentalCar>rentalCar;
 
-    private HashMap<String,Sale>sales;
+    static  HashMap<String, SubscriptionCar>subscriptions;
 
-    private HashMap<String,Customer>customers;
+    static  HashMap<String,Benefits>benefits;
 
-    public void addNewCustomer(){}
+    static  HashMap<String,RentalBooking>rentalBookings;
 
-    public void viewCustomerDetails(){}
+    static  HashMap<String,SubscriptionBooking>subscriptionBookings;
 
-    public void viewCustomers(){}
+    static  HashMap<String,ReturnAddress>address;
 
-    public void viewCarDetails(){}
 
-    public void viewAvailableCars(){}
+   public void addRentalCarDetails(){}
 
-    public void registerCar(){}
+    public void removeRentalCarDetails(){}
 
-    public void updateCarDetails(){}
+    public void updateRentalCarDetails(){}
 
-    public void deleteCarDetails(){}
+    public void viewRentalCarBooking(){}
 
-    public void addNewSale(){}
+    public void viewRentalCarDetails(){}
 
-    public void viewSales(){}
+    public void addSubscriptionCarDetails(){}
 
+    public void removeSubscriptionDetails(){}
+
+    public void updateSubscriptionDetails(){}
+
+    public void addSubscriptionBenefits(){}
+
+    public void updateSubscriptionBenefits(){}
+
+    public void viewSubscriptionCarDetails(){}
+
+    public void viewSubscriptionCarBookings(){}
+
+    public void viewReturnAddressDetails(){}
 
 }

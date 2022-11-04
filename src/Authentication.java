@@ -1,19 +1,20 @@
 import java.util.HashMap;
-
+import java.util.Scanner;
 public class Authentication {
 
-    private HashMap<String,Object>users;
 
-    public void adminLogin(){}
+   static HashMap<String,Object>users;
 
-    public void managerLogin(){}
+    public static void adminLogin(){}
 
-    public void employeeLogin(){}
+    public static void managerLogin(){}
 
-    public void customerLogin(){}
+    public static void employeeLogin(){}
 
-    public void customerRegister(){}
+    public static void customerLogin(){}
 
-    public void logout(){}
+    public static void customerRegister(){}
+
+    public static void logout(){}
 
 }

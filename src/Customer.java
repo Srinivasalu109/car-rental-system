@@ -3,24 +3,32 @@ import java.util.HashMap;
 
 public class Customer{
 
-    private String customerId;
-
     private String password;
 
-    private String CustomerName;
+    public static void viewRentalCars(){}
 
-    private String email;
+    public static void viewSubscriptionCars(){}
 
-    private String gender;
+    public static void viewSubscriptionBenefits(){}
 
-    private String mobileNumber;
+    public static void filterRentalCars(){}
 
-    private String Address;
+    public static void filterSubscriptionCars(){}
 
-    public void viewAvailableCars(){}
+    public static void modifySearchForRentalCars(){}
 
-    public void hireCar(){}
+    public static void modifySearchForSubscriptionCars(){}
 
-    public void returnCar(){}
+    public static void bookRentalCar(){}
+
+    public static void bookSubscriptionCar(){}
+
+    public static void updateRentalCarBookingDetails(){}
+
+    public static void updateSubscriptionCarBookingDetails(){}
+
+    public static void returnCar(){}
+
+    public static void updateReturnAddress(){}
 
 }

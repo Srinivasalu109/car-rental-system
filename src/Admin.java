@@ -1,29 +1,42 @@
 import java.util.HashMap;
+import java.util.Iterator;
 
 public class Admin {
 
-    private String adminId;
-
     private String password;
 
-    private HashMap<String,Branch>branches;
-
-    private HashMap<String,Manager>managers;
+    static HashMap<String,Branch>branches;
 
 
-    public void appointManager(){}
+    public void viewRentalCarDetails(){
+        Iterator<String >it=Employee.rentalCar.keySet().iterator();
+        while(it.hasNext()){
+            String key=(String)it.next();
 
-    public void removeManager(){}
+        }
+    }
 
-    public void viewManagers(){}
+    public void viewSubscriptionCarDetails(){}
 
-    public void updateManagerDetails(){}
+    public void viewRentalCarBooking(){}
 
-    public void openBranch(){}
+    public void viewSubscriptionCarBookings(){}
 
-    public void closeBranch(){}
+    public static void viewEmployees(){}
 
-    public void updateBranchDetails(){}
+    public static void appointManager(){}
+
+    public static void removeManager(){}
+
+    public static void viewManagers(){}
+
+    public static void updateManagerDetails(){}
+
+    public static void openBranch(){}
+
+    public static void closeBranch(){}
+
+    public static void updateBranchDetails(){}
 
 
 }
